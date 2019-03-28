@@ -1,0 +1,28 @@
+{
+  "name": "ServerlessGraphqlExpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.1.0",
+    "express": "^4.16.4",
+    "graphql": "^0.13.2",
+    "serverless": "^1.32.0",
+    "serverless-http": "^1.8.0",
+    "serverless-offline": "^3.31.0",
+    "serverless-webpack": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "graphql-playground-middleware-express": "^1.7.6",
+    "webpack": "^4.23.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
